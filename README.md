@@ -40,3 +40,47 @@ Ce projet a été réalisé pour une marque d'horlogerie réputée, avec l'objec
 
 ## Confidentialité
 Ce projet a été réalisé sous un accord de non-divulgation. Les détails spécifiques du projet, y compris les aspects précis de l'implémentation et les fonctionnalités, ne sont pas divulgués dans ce document.
+
+English version :
+# Device programming project for a well-known watch brand
+
+## Description
+This project was carried out for a well-known watchmaking brand, with the aim of programming a device to meet the company's specific needs. It involved integrating the device with an API developed in-house. This README, being the only project content shared publicly, presents an overview of the techniques and technologies employed, while respecting confidentiality constraints.
+
+## Development environment
+
+### Tools used
+- Visual Studio Code (VSCode)** : Chosen for its versatility and numerous extensions.
+- PlatformIO** extension: Integrated into VSCode, specially designed for IoT development.
+
+### Configuration
+- Configuration file**: Create a file to configure the device with specific parameters.
+
+## Library and Dependencies
+- **Library tuning and adaptation**: Use an official library, adapted to the project.
+
+## Connectivity and API integration
+
+### Wi-Fi configuration and HTTP requests
+- **Libraries required**: Use of `WiFi.h`, `HTTPClient.h`, `ArduinoJson.h` for network connection and data processing.
+- API request implementation**: Configuration of HTTP GET and POST requests for optimum interaction with the internal API.
+
+### Data processing
+- Data retrieval** : Information is retrieved via HTTP requests and processed in real time.
+- Analysis and processing**: Data received is analyzed to extract relevant information according to business needs.
+- Display and use**: Processed information is then displayed on the device and used for other programmed functions.
+
+## User Interface
+
+### Technology and Implementation
+- LVGL library**: Used to create the user interface.
+- Interface functions**: Development of event handlers and functions for display and user interaction.
+
+## Skills and Expertise
+- Configuration of development environments for IoT devices.
+- Programming in C++ to customize embedded devices.
+- Integration and management of network connectivity.
+- Adaptation of user interface to meet specific customer requirements.
+
+## Confidentiality
+This project was carried out under a non-disclosure agreement. Specific details of the project, including precise aspects of implementation and functionality, are not disclosed in this document.
